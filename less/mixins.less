@@ -1,1 +1,16 @@
 // Mixins Here
+@nav-background: rgb(247, 247, 247);
+
+.button(@background: gray, @color: white) {
+	background-color: @background;
+	color: @color;
+	width: 25%;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 20px 20px;
+
+	&:hover {
+		background-color: white;
+		color: gray;
+	}
+}
