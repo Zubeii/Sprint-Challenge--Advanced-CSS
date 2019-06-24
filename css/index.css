@@ -1,3 +1,7 @@
+.width-margin {
+  width: 100%;
+  margin: auto;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -252,8 +256,8 @@ footer {
 @media (max-width: 500px) {
   .home .walk {
     flex-direction: column-reverse;
-    padding: 1% 2%;
-    margin: 0 2%;
+    padding: 0;
+    margin: 20px 2.5%;
   }
 }
 .home .walk .walk-text {
@@ -262,6 +266,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin: auto;
   }
 }
 .home .walk .walk-text h3 {
@@ -273,7 +278,7 @@ footer {
 .home .walk .walk-text .btn {
   background-color: #343457;
   color: white;
-  width: 100%;
+  width: 150px;
   border-radius: 5px;
   text-decoration: none;
   padding: 3% 0;
@@ -289,6 +294,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
+    margin: auto;
   }
 }
 .home .walk .walk-img {
@@ -298,11 +304,11 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
-    margin: 2% auto;
+    margin: auto;
   }
 }
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
