@@ -1,1 +1,32 @@
 // Navigation code here
+nav {
+	width: 100%;
+	font-size: 1.6rem;
+	background-color: @nav-background;
+	.nav-container {
+		line-height: 5rem;
+		display: flex;
+		flex-direction: column;
+		max-width: 1000px;
+		margin: auto;
+		justify-content: space-between;
+		align-items: center;
+		h1 {
+			margin-top: 12px;
+			font-size: 5rem;
+		}
+		.nav-links {
+			display: flex;
+			justify-content: space-around;
+			width: 60%;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: black;
+		&:hover {
+			color: white;
+			text-decoration: underline;
+		}
+	}
+}

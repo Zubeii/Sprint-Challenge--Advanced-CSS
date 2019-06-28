@@ -1,1 +1,23 @@
 // Mixins Here
+
+.width-margin {
+	width: 100%;
+	margin: auto;
+}
+
+.button(@background: rgb(52, 52, 87), @color: white) {
+	background-color: @background;
+	color: @color;
+	width: 150px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 3% 0;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 3rem;
+	&:hover {
+		background-color: @color;
+		color: @background;
+	}
+}
